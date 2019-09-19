@@ -1,0 +1,9 @@
+#+author: Rodrigo Dorantes-Gilardi
+#+hugo_base_dir: ../..
+#+hugo_section: post
+#+title: About
+
+My name is Rodrigo Dorantes-Gilardi and I'm a postdoc researcher at [[https://csbig.inmegen.gob.mx/][CSBIG Lab]] under the wing of [[https://csbig.inmegen.gob.mx/about/][Enrique
+Hernandez-Lemus]] and [[https://scholar.google.com.mx/citations?user=Aoa-qxcAAAAJ&hl=en][Jesús Espinal-Enríquez]].
+
+My work is at the frontier between data science, networks, and bio-informatics.

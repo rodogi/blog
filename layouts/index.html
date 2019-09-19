@@ -1,0 +1,37 @@
+{{ define "main" }}
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+            {{ if .HasChildren }}
+                <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+                    <a href="#">
+                        {{ .Pre }}
+                    </a>
+                </li>
+                <ul class="sub-menu">
+                    {{ range .Children }}
+                        <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                            <a href="{{ .URL }}">{{ .Name }}</a>
+                        </li>
+                    {{ end }}
+                </ul>
+            {{ else }}
+                    <a href="{{ .URL }}">
+                        {{ .Name }}
+                    </a>
+            {{ end }}
+        {{ end }}
+  <div class="splash-container">
+    <div class="splash">
+      <h1>Hi, my name is Rodrigo Dorantes-Gilardi<span class="fancy">.</span></h1>
+      <h2>I'm a Postdoc researcher  at <a href="https://csbig.inmegen.gob.mx/"
+      class="writing">csbig</a> interested in networks, data science and bio-informatics.</h2>
+      <div>You can reach me at rdorantes[at]inmegen.edu.mx</div>
+      {{ partial "social-icons.html" .}}
+    </div>
+  </div>
+
+  <div class="homepage-content">
+        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+        {{.Content}}
+  </div>
+{{ end }}

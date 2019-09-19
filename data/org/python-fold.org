@@ -1,0 +1,44 @@
+#+TITLE: Folding your python code blocks in Emacs
+* Purpose
+  + I use python in my every-day work and I'm starting to use (and
+    love) Emacs.
+  + I use =vimish-folding= package to fold code in Emacs. It allows you
+    to define your own foldings and remembers them for the next time you
+    open the file.
+  + Comming from *vim* I miss having my functions and classes folded out-of-the-box.
+  + Unfortunately you don't have that in =vimish-folding=, but it's
+    easy to implemented a function to do just that: Fold every code-block in
+    your buffer.
+*  The Function
+  #+caption: Add the following code to your =init.el= file to fold code blocks in python.
+  #+BEGIN_SRC emacs-lisp
+;; Fold code-blocks in python
+(defun fold-python-blocks ()
+  "Fold all code blocks in python"
+  (interactive)
+  (forward-word) ; start with the second word
+  (setq p (point))
+  (while (forward-word)
+    (backward-word)
+    (setq col (current-column))
+    (forward-word)
+    (if (= col 0)
+	(progn
+	  (setq p1 (car (bounds-of-thing-at-point 'word)))
+	  (vimish-fold p p1)
+	  (setq p p1)
+	  (goto-char p)
+	  (forward-word))))
+  (vimish-fold p (buffer-size))
+  (goto-char 1))
+  #+END_SRC
+  
+  You can use the previous function by typing =M-x
+  fold-python-blocks=. This will fold each code block in your file,
+  including code out of functions and classes, for instance, after a
+  sentence of the style:
+  #+BEGIN_SRC python
+  if __name__ == "__main__":
+  #+END_SRC
+* More Code
+  [[file:~/rodogi.github.io/code.html][Check out more snippets!]] 
