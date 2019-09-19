@@ -34,7 +34,7 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
   highlightLanguages = ["r", "python", "bash"]
 
 [params.hackcss]
-  palette = "standard"
+  palette = "dark"
 
 [params.layout.menu.main]
   hidden = false # Optional, set false or remove to show section menu
@@ -53,7 +53,7 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
     url = "/post"
 
 [[menu.main]]
-    name = "Resume"
+    name = "Résumé"
     weight = 3
     identifier = "resume"
     url = "/resume"

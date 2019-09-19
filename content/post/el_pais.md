@@ -3,6 +3,7 @@ title = "What cities appear more often in El País articles?"
 author = ["Rodrigo Dorantes-Gilardi"]
 date = 2019-07-22T00:00:00-05:00
 draft = false
+toc = true
 +++
 
 ## Introduction {#introduction}

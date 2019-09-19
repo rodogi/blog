@@ -1,25 +1,8 @@
 {{ define "main" }}
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
-            {{ if .HasChildren }}
-                <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-                    <a href="#">
-                        {{ .Pre }}
-                    </a>
-                </li>
-                <ul class="sub-menu">
-                    {{ range .Children }}
-                        <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-                            <a href="{{ .URL }}">{{ .Name }}</a>
-                        </li>
-                    {{ end }}
-                </ul>
-            {{ else }}
-                    <a href="{{ .URL }}">
-                        {{ .Name }}
-                    </a>
-            {{ end }}
-        {{ end }}
+{{ partial "head/favicon.html" . }}
+<a href="/" style="color:#ff9800">Home</a>
+<a href="post" style="color:#ff9800">Blog</a>
+<a href="resume" style="color:#ff9800">Résumé</a>
   <div class="splash-container">
     <div class="splash">
       <h1>Hi, my name is Rodrigo Dorantes-Gilardi<span class="fancy">.</span></h1>
