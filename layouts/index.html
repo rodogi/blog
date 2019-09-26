@@ -1,4 +1,9 @@
 {{ define "main" }}
+<style>
+  .bottom-three {
+     margin-bottom: 1cm;
+  }
+</style>
 {{ partial "head/favicon.html" . }}
 <a href="/" style="color:#ff9800">Home</a>
 <a href="post" style="color:#ff9800">Blog</a>
@@ -12,6 +17,10 @@
       {{ partial "social-icons.html" .}}
     </div>
   </div>
+      <p class="bottom-three"><a href="https://github.com/rodogi/blog" style="color:#d5ff6c">Here</a> You can find the
+      source code of this website.
+
+	</p>
 
   <div class="homepage-content">
         <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
