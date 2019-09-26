@@ -30,11 +30,10 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
     "https://source.unsplash.com/collection/983219/2000x1322"
   ] # Suggested, controls default Open Graph images
   highlight = true
-  highlightStyle = "solarized-dark"
   highlightLanguages = ["r", "python", "bash"]
 
 [params.hackcss]
-  palette = "dark"
+  palette = "dark-grey"
 
 [params.layout.menu.main]
   hidden = false # Optional, set false or remove to show section menu
