@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://rodogi.github.io/</loc>
+    <lastmod>2019-09-28T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rodogi.github.io/a-quick-look-at-the-mexican-national-system-of-researchers-with-python/</loc>
+    <lastmod>2019-09-28T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rodogi.github.io/post/</loc>
+    <lastmod>2019-09-28T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rodogi.github.io/emacs-config-file/</loc>
+    <lastmod>2019-09-26T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rodogi.github.io/resume/</loc>
+    <lastmod>2019-09-18T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rodogi.github.io/what-cities-appear-more-often-in-el-pa%C3%ADs-articles/</loc>
+    <lastmod>2019-07-22T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rodogi.github.io/create-a-network-with-graph-tool-and-pandas/</loc>
+    <lastmod>2019-06-26T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rodogi.github.io/using-pandas-for-network-analysis/</loc>
+    <lastmod>2019-05-15T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rodogi.github.io/adding-arrows-to-networkx/</loc>
+    <lastmod>2018-05-29T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rodogi.github.io/folding-python-code-in-emacs/</loc>
+    <lastmod>2018-03-19T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rodogi.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rodogi.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rodogi.github.io/tags/</loc>
+  </url>
+  
+</urlset>
