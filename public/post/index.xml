@@ -10,10 +10,29 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 9.1.0 (Hugo 0.58.2)</generator>
+    <generator>After Dark 9.1.0 (Hugo 0.58.3)</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 28 Sep 2019 20:20:40 UT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Oct 2019 03:28:56 UT</lastBuildDate>
     <atom:link href="https://rodogi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I forgive your taxes</title>
+      <link>https://rodogi.github.io/i-forgive-your-taxes/</link>
+      <pubDate>Wed, 02 Oct 2019 05:00:00 UT</pubDate>
+      <dc:creator>[Rodrigo Dorantes-Gilardi]</dc:creator>
+      <guid>https://rodogi.github.io/i-forgive-your-taxes/</guid>
+      <description>Overall My Friend and mentor Chucho told me about a table of people who&amp;rsquo;s taxes were forgiven between 2007&amp;ndash;2019 in Mexico came public recently. The information was compiled by Mexican association Fundar, and it includes the year of the tax exemption, the amount and the entity. Tax exemptions are classified in two types: cancellation and reduction.
+Here, I focus on real people and tax reductions. Another analysis should be made including tax cancellation and private companies.</description>
+      <content:encoded><![CDATA[ Overall My Friend and mentor Chucho told me about a table of people who&amp;rsquo;s taxes were forgiven between 2007&amp;ndash;2019 in Mexico came public recently. The information was compiled by Mexican association Fundar, and it includes the year of the tax exemption, the amount and the entity. Tax exemptions are classified in two types: cancellation and reduction.
+Here, I focus on real people and tax reductions. Another analysis should be made including tax cancellation and private companies. The time spans the presidency of three Mexican presidents, so let&amp;rsquo;s see who was forgiving who and when, whenever I say forgiven I&amp;rsquo;m really talking about a (in some cases huge) tax reduction.
+Three presidents:
+ Felipe Calderon Hinojosa (FCH): 2006&amp;ndash;2012 Enrique Peña Nieto (EPN): 2012&amp;ndash;2018 Andres Manuel Lopez Obrador (AMLO): 2018&amp;ndash;  Table 1: Amount forgiven In Million current Pesos     FCH EPN AMLO     5716 5792 12    The grand total of 12,000 Million pesos was forgiven between 2007 and 2019, with EPN and FCH being the most merciful with 5,802 M and 5,706 M, respectively. AMLO has forgiven only 12 M so far, let&amp;rsquo;s see how this evolves next year in 2020.
+   Figure 1: Amount forgiven per president    When plotting the amount of pesos forgiven per year something struck me: The vast majority of the tax-exemptions were done the two years after FHC became president and one year after EPN. Could it be that this list of tax-exemptions is in actuality a list of debt payment?
+   Figure 2: Amount foriven per year    Let&amp;rsquo;s now see the favorite people of each president.
+Felipe Calderón Hinojosa Felipe had a list of 1,290 friends to which he forgave a lot of dinero to. He forgave 96.6% of the total during his first two years of presidency. He was most merciful with Carlos Efrain De Jesus Cabal Peniche, to whom he forgave 500 M pesos. Second in the list is my home town local Miguel Fernando Valladares Garcia with 221 M pesos.
+   Figure 3: FCH favorite people    Enrique Peña Nieto EPN had more friends; 4,352 to be exact. And he forgave 94% of the money in his first year as a president. He was indeed quick to repay his debts.
+   Figure 4: EPN favorite people    Favorite people overall There is a list of 133 people that have been friends with both presidents. Interestingly, these people are not friends with AMLO, as they weren&amp;rsquo;t forgiven any money during his first year as a President. Here is when they where forgiven their taxes.
+   Figure 5: Mutual friends of FCH and EPN    ]]></content:encoded>
+    </item>
     <item>
       <title>A quick look at the Mexican national system of researchers with Python</title>
       <link>https://rodogi.github.io/a-quick-look-at-the-mexican-national-system-of-researchers-with-python/</link>
